@@ -1,4 +1,5 @@
 CesunAttendance::Application.routes.draw do
+  resources :shifts
   devise_for :users
 
   devise_scope :user do

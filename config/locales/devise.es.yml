@@ -7,7 +7,7 @@ es:
       not_found: "no encontrado"
       already_confirmed: "ya ha sido confirmado, por favor intente iniciar sesión"
       not_locked: "not fue bloqueado"
-      not_saved:
+      not_saved: 
         one: "1 error no permitio que este %{resource} fuera guardado:"
         other: "%{count} errores no permitieron que %{resource} fuera guardado:"
 
