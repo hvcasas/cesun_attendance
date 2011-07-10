@@ -15,5 +15,5 @@ Factory.define :study_plan do |s|
 end
 
 Factory.define :shift do |f|
-  f.descripcion 'test123'
+  f.description 'test123'
 end

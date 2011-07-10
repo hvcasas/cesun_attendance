@@ -1,4 +1,12 @@
 CesunAttendance::Application.routes.draw do
+  get "shifts/index"
+
+  get "shifts/show"
+
+  get "shifts/new"
+
+  get "shifts/edit"
+
   resources :shifts
   devise_for :users
 
